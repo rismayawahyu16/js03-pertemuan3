@@ -1,0 +1,16 @@
+
+<?php
+for ($i = 1; $i <= 50; $i++) {
+
+    if ($i % 3 == 0 && $i % 5 == 0) {
+        echo "PoltekKom<br>";
+    } elseif ($i % 3 == 0) {
+        echo "Poltek<br>";
+    } elseif ($i % 5 == 0) {
+        echo "Kom<br>";
+    } else {
+        echo $i . "<br>";
+    }
+
+}
+?>
